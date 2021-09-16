@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "####"
 echo "##   Presearch Community Node Installation Script"
 echo "####"
