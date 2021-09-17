@@ -39,7 +39,7 @@ echo "Node auto-updater installation"
 docker run -d --name presearch-auto-updater --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --interval 300 presearch-node
 echo "Presearch node installation"
 docker run -dt --name presearch-node --restart=unless-stopped -v presearch-node-storage:/app/node -e REGISTRATION_CODE=$regCode presearch/node
-y
+
 echo ""
 # displays used registration code for cross-check
 echo  "Please check your registration code !!!"
